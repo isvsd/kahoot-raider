@@ -13,9 +13,9 @@ RAID_CLIENTS = [
 default = StringVar(root)
 default.set(RAID_CLIENTS[0])
 
-pinL = Label(root, text="Game PIN:")
+pinL = Label(root, text="Game PIN:4633316")
 pinE = Entry(root)
-nameL = Label(root, text="Username:")
+nameL = Label(root, text="Username:hohoho")
 nameE = Entry(root)
 info = Label(root, text="(Use #id# to print clients ID number)", font=tkFont.Font(size=7))
 clientsL = Label(root, text="Client Count:")
